@@ -54,14 +54,6 @@ button{
 .img-edit{
     position: relative;
 }
-.hover-button{
-    padding: 10px;
-    background-color: green;
-    color: white;
-    border-radius: 9999px;
-    position: absolute;
-}
-
 
 
 .edit-one{
@@ -359,9 +351,17 @@ anirudh{
     .card-list{
         margin-left: 0;
     }
+    .card-row{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .card{
+        width: 33%;
+    }
     .card-img{
         height: 130px;
     }
+ 
     .card-img-two{
         height: 130px;
     }
@@ -371,6 +371,7 @@ anirudh{
     
     .header-two{
         display: flex;
+        align-items: center;
     }
     .hidden-aside{
         margin-top: 30px;
