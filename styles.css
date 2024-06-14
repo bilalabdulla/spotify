@@ -390,5 +390,16 @@ anirudh{
     body{
         padding: 2px;
     }
+    footer{
+        margin: 0;
+        padding: 3px;
+        padding-bottom: 15px;
+    }
+    .card-head{
+        padding: 8px;
+    }
+    .social-icon{
+        margin-left: 5px;
+    }
     
 }
