@@ -88,7 +88,7 @@ button{
 
 .header-two{
     justify-content: space-between;
-    padding: 5px 10px;
+    padding: 0 10px;
     align-items: center;
     display: none;
 }
@@ -354,9 +354,12 @@ anirudh{
     .card-row{
         width: 100%;
         box-sizing: border-box;
+        padding: 0;
     }
     .card{
         width: 33%;
+        padding: 2px;
+        margin: 4px 2px;
     }
     .card-img{
         height: 130px;
@@ -384,4 +387,8 @@ anirudh{
     .edit-six{
         padding-bottom: 0;
     }
+    body{
+        padding: 2px;
+    }
+    
 }
